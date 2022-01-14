@@ -1,0 +1,109 @@
+/* !Google Fonts Imports */
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;1,600&display=swap");
+* {
+  font-family: "JetBrains Mono", monospace;
+  scroll-behavior: smooth;
+}
+
+/* ! Navbar Css */
+.nav-wrapper {
+  background-color: #6f4037;
+}
+
+.nav-wrapper > a {
+  text-decoration: none;
+  font-family: "Pacifico", cursive;
+}
+
+.nav-wrapper > a:hover {
+  color: white;
+}
+
+/* ! Slider buttons */
+.slider .indicators .indicator-item.active {
+  background: #6f4037 !important;
+}
+
+/* !coffee */
+.tea-cup {
+  object-fit: contain;
+}
+
+.fluid-container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+/* !Explore BTN */
+.explore-btn {
+  margin-bottom: 50px;
+}
+
+/* !parallex */
+.parallax-container {
+  min-height: 380px;
+  height: auto;
+}
+
+/* !CARA */
+.carousel {
+  height: 350px !important;
+}
+
+/* ? hr tag above reviews */
+hr {
+  color: #6f4037;
+  height: 10px;
+  border: none;
+  background-color: #6f4037;
+}
+
+/* !Foooter */
+.page-footer {
+  background: #6f4037 !important;
+}
+
+@media (max-width: 992px) {
+  .nav-wrapper > a:hover {
+    color: black;
+  }
+
+  .carousel {
+    height: 150px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-wrapper > a {
+    padding-left: 35px;
+  }
+
+  .caption {
+    margin-top: 50px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .fluid-container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .right {
+    float: left !important;
+  }
+}
+@media (max-width: 320px) {
+  .nav-wrapper > a {
+    font-size: 25px;
+  }
+
+  .fluid-container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+
+  .right {
+    float: left !important;
+  }
+}
